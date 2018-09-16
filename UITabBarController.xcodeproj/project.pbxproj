@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		C0BE18A0214E506B00F2EF2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BE189F214E506B00F2EF2B /* AppDelegate.swift */; };
-		C0BE18A2214E506B00F2EF2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BE18A1214E506B00F2EF2B /* ViewController.swift */; };
 		C0BE18A5214E506B00F2EF2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0BE18A3214E506B00F2EF2B /* Main.storyboard */; };
 		C0BE18A7214E506D00F2EF2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BE18A6214E506D00F2EF2B /* Assets.xcassets */; };
 		C0BE18AA214E506D00F2EF2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0BE18A8214E506D00F2EF2B /* LaunchScreen.storyboard */; };
 		C0BE18B5214E506D00F2EF2B /* UITabBarControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BE18B4214E506D00F2EF2B /* UITabBarControllerTests.swift */; };
 		C0BE18C0214E506D00F2EF2B /* UITabBarControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BE18BF214E506D00F2EF2B /* UITabBarControllerUITests.swift */; };
+		C0BE18CE214E52A000F2EF2B /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BE18CD214E52A000F2EF2B /* MainTabBar.swift */; };
+		C0BE18D0214E52D600F2EF2B /* NewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BE18CF214E52D600F2EF2B /* NewsVC.swift */; };
+		C0BE18D2214E52E600F2EF2B /* EmailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BE18D1214E52E600F2EF2B /* EmailsVC.swift */; };
+		C0BE18D4214E52F200F2EF2B /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BE18D3214E52F200F2EF2B /* ChatVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		C0BE189C214E506B00F2EF2B /* UITabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0BE189F214E506B00F2EF2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C0BE18A1214E506B00F2EF2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C0BE18A4214E506B00F2EF2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0BE18A6214E506D00F2EF2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0BE18A9214E506D00F2EF2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		C0BE18BB214E506D00F2EF2B /* UITabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0BE18BF214E506D00F2EF2B /* UITabBarControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarControllerUITests.swift; sourceTree = "<group>"; };
 		C0BE18C1214E506D00F2EF2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0BE18CD214E52A000F2EF2B /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		C0BE18CF214E52D600F2EF2B /* NewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsVC.swift; sourceTree = "<group>"; };
+		C0BE18D1214E52E600F2EF2B /* EmailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailsVC.swift; sourceTree = "<group>"; };
+		C0BE18D3214E52F200F2EF2B /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				C0BE189F214E506B00F2EF2B /* AppDelegate.swift */,
-				C0BE18A1214E506B00F2EF2B /* ViewController.swift */,
 				C0BE18A3214E506B00F2EF2B /* Main.storyboard */,
+				C0BE18CD214E52A000F2EF2B /* MainTabBar.swift */,
+				C0BE18CF214E52D600F2EF2B /* NewsVC.swift */,
+				C0BE18D1214E52E600F2EF2B /* EmailsVC.swift */,
+				C0BE18D3214E52F200F2EF2B /* ChatVC.swift */,
 				C0BE18A6214E506D00F2EF2B /* Assets.xcassets */,
 				C0BE18A8214E506D00F2EF2B /* LaunchScreen.storyboard */,
 				C0BE18AB214E506D00F2EF2B /* Info.plist */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0BE18A2214E506B00F2EF2B /* ViewController.swift in Sources */,
+				C0BE18CE214E52A000F2EF2B /* MainTabBar.swift in Sources */,
+				C0BE18D2214E52E600F2EF2B /* EmailsVC.swift in Sources */,
 				C0BE18A0214E506B00F2EF2B /* AppDelegate.swift in Sources */,
+				C0BE18D0214E52D600F2EF2B /* NewsVC.swift in Sources */,
+				C0BE18D4214E52F200F2EF2B /* ChatVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
